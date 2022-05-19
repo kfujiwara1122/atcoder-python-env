@@ -21,6 +21,7 @@
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
         "--ignore=W503, E111",
+        "--exclude=templates.py",
         "--max-line-length=120",
         "--indent-size=2"
     ],

@@ -16,7 +16,8 @@ A = list(map(int, input().split()))
 H, W = list(map(int, input().split()))
 S = []
 for _ in range(H):
-  S.append(input())
+  s = input()
+  S.append(s)
 
 # graph input
 N, M = list(map(int, input().split()))

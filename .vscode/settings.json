@@ -1,0 +1,33 @@
+{
+    // general settings
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "/bin/bash"
+        }
+    },
+    "files.eol": "\n",
+
+    // python settings
+    "[python]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": false,
+        "editor.formatOnType": false,
+        "editor.insertSpaces": true
+    },
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=W503, E111",
+        "--max-line-length=120",
+        "--indent-size=2"
+    ],
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--ignore=W503, E111",
+        "--max-line-length=120",
+        "--indent-size=2"
+    ],
+}

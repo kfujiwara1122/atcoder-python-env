@@ -10,6 +10,25 @@
                 "kind": "build",
                 "isDefault": true
             },
+            "command": "pypy",
+            "args": [
+                "${file}"
+            ],
+            "presentation": {
+                "echo": false,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "python",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
             "command": "python",
             "args": [
                 "${file}"

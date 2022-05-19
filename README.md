@@ -1,10 +1,16 @@
 # AtCoder Python Env
 
-Python dev environment for AtCoder created by Kazuaki Fujiwara.
+個人使用のためのAtCoder環境。
+
+主にAtCoderでの使用を想定。
+
+## How to use
+
+基本的にはVSCode devContainerの使用を想定。
 
 ## Algorithms
 
-All algorithms are associated with the problem in tipical 90.
+src内に各種アルゴリズムを格納予定。。。
 
 ### Data structure
 
@@ -18,3 +24,8 @@ All algorithms are associated with the problem in tipical 90.
 - Floyd–Warshall (TODO)
 - Prim (TODO)
 - SCC (TODO)
+
+### Math
+
+- Erathosthenes
+- Factorization

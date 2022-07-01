@@ -8,4 +8,6 @@ def factorization(n):
     while tmp % i == 0:
       tmp //= i
       ret.append(i)
+  if tmp > 1:
+    ret.append(tmp)
   return ret
